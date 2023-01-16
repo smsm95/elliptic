@@ -24,39 +24,37 @@
   visibility: visible;
 }
 
-
 .side-info nav.mobile-menu ul li a:hover {
-  color: #7432ff;
+  color: #3a74f9;
 }
 
 .side-info nav.mobile-menu ul li a:hover {
-  color: #7432ff;
+  color: #3a74f9;
 }
-
 
 .side-info nav.mobile-menu li button {
-    width: 30px;
-    height: 30px;
-    background: transparent;
-    border: none;
-    outline: none;
-    color: #fff;
-    position: absolute;
-    top: 10px;
-    right: 0;
+  width: 30px;
+  height: 30px;
+  background: transparent;
+  border: none;
+  outline: none;
+  color: #fff;
+  position: absolute;
+  top: 10px;
+  right: 0;
 }
-.side-info nav.mobile-menu li button.dropdown.active  {
-    color: #7432ff;
-    transform: rotate(-90deg);
-    -webkit-transform: rotate(-90deg);
-    -moz-transform: rotate(-90deg);
-    -ms-transform: rotate(-90deg);
-    -o-transform: rotate(-90deg);
+.side-info nav.mobile-menu li button.dropdown.active {
+  color: #3a74f9;
+  transform: rotate(-90deg);
+  -webkit-transform: rotate(-90deg);
+  -moz-transform: rotate(-90deg);
+  -ms-transform: rotate(-90deg);
+  -o-transform: rotate(-90deg);
 }
-ul li .dropdown  {
-    display: none;
+ul li .dropdown {
+  display: none;
 }
-.side-info nav.mobile-menu ul li .dropdown  {
+.side-info nav.mobile-menu ul li .dropdown {
   display: block;
 }
 .side-info nav.mobile-menu .main-menu__links ul {
@@ -70,7 +68,6 @@ ul li .dropdown  {
 .side-info-content {
   margin-top: 30px;
 }
-
 
 /* mobile menu css */
 .side-toggle {
@@ -89,7 +86,8 @@ ul li .dropdown  {
   color: #ffffff;
 }
 
-@media only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px) {
+@media only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px) {
   .side-menu-icon {
     margin-left: 50px;
   }
@@ -144,4 +142,3 @@ ul li .dropdown  {
   opacity: 0.5;
   visibility: visible;
 }
-
