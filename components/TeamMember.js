@@ -23,23 +23,29 @@ const MEMBER_DATA = [
     memberPosition: "Content & Marketing Manager",
   },
   {
+    memberImg: "/assets/images/team/maryna.png",
+    memberLink: "/single-team",
+    memberName: "Maryna Gnauck",
+    memberPosition: "Content & Marketing Specialist",
+  },
+  {
     memberImg: "/assets/images/team/snitchana.jpeg",
     memberLink: "/single-team",
     memberName: "Snizhana Zadorozhna",
     memberPosition: "Content & Marketing Specialist",
   },
-  // {
-  //   memberImg: "/assets/images/team/member-4.jpg",
-  //   memberLink: "/single-team",
-  //   memberName: "Mazin Omer",
-  //   memberPosition: "Senior Software Engineer",
-  // },
-  // {
-  //   memberImg: "/assets/images/team/member-1.jpg",
-  //   memberLink: "/single-team",
-  //   memberName: "Abdelhadi",
-  //   memberPosition: "Senior Software Engineer",
-  // },
+  {
+    memberImg: "/assets/images/team/abdelhadi.png",
+    memberLink: "/single-team",
+    memberName: "Abdelhadi Mohamed",
+    memberPosition: "Senior Software Engineer",
+  },
+  {
+    memberImg: "/assets/images/team/mazin.png",
+    memberLink: "/single-team",
+    memberName: "Mazin Abdallah",
+    memberPosition: "Senior Software Engineer",
+  },
 ];
 
 const TeamMember = ({ subTitle }) => {
